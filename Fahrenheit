@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main (){
+
+    //declare Fahrenheit and celsius as float variables.
+    float Fahrenheit;
+    float celsius;
+
+    //input : Fahrenheit
+    printf("Input a Fahrenheit value:");
+    scanf("%f" ,&Fahrenheit);
+    printf("Fahrenheit = %.2f",Fahrenheit);
+
+    process: celsius= (Fahrenheit - 32) * 5 / 9;
+    celsius = (Fahrenheit-32) * 5/9;
+
+    //output : celsius;
+    printf("\nCelsius=%.2f" ,celsius);
+
+    return 0;
+}
